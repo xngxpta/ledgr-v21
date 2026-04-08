@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import streamlit as st
-from st_paywall import add_auth
+#from st_paywall import add_auth
 #from streamlit_option_menu import option_menu
 import yfinance as yf
 import matplotlib.pyplot as plt
@@ -16,7 +16,7 @@ import streamlit_authenticator as stauth
 # init_session()
 
 direc = os.getcwd()
-add_auth()
+#add_auth()
 ##################################################################
 logofile = f'{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png'
 # #######################################
