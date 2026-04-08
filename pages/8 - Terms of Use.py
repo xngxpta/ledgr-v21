@@ -4,9 +4,9 @@ from pathlib import Path
 from streamlit_pdf_viewer import pdf_viewer
 import base64
 import os
-from st_paywall import add_auth
+#from st_paywall import add_auth
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 # Function to read the content of a markdown file
 # def read_markdown_file(file_path):
 #     """Reads a markdown file and returns its content as a string."""
