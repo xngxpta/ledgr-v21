@@ -22,7 +22,7 @@ from selectolax.parser import HTMLParser
 import requests
 import streamlit as st
 # from auth.session import init_session
-from st_paywall import add_auth
+#from st_paywall import add_auth
 # init_session()
 
 st.set_page_config(
@@ -33,7 +33,7 @@ st.set_page_config(
 # ##################################################################
 
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 logofile = f"{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png"
 url_stripe = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
 st.sidebar.image(logofile)
