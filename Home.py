@@ -16,7 +16,7 @@ import streamlit_authenticator as stauth
 # init_session()
 
 direc = os.getcwd()
-add_auth(required=True)
+add_auth()
 ##################################################################
 logofile = f'{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png'
 # #######################################
