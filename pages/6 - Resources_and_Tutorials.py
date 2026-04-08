@@ -5,13 +5,13 @@ import base64
 import os
 import urllib
 from streamlit_pdf_viewer import pdf_viewer
-from st_paywall import add_auth
+#from st_paywall import add_auth
 
 st.set_page_config(page_title='Ledgr | About & Tutorials', layout="wide",
                    initial_sidebar_state="expanded")
 # authenticator.logout("Logout", "sidebar")
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 logofile = f'{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png'
 url_stripe = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
 url_ytube = "https://www.youtube.com/@LedgrInc"
