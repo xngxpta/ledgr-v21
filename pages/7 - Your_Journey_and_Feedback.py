@@ -2,13 +2,13 @@
 import datetime as dt
 import streamlit as st
 import os
-from st_paywall import add_auth
+#from st_paywall import add_auth
 st.set_page_config(page_title='Ledgr | Contact Us', layout="wide",
                    initial_sidebar_state="expanded")
 
 
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 st.header("Contact, Suggestions & Communication", divider='rainbow')
 logofile = f'{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png'
 url_stripe = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
