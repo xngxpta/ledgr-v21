@@ -10,7 +10,7 @@ import streamlit as st
 import datetime as dt
 # import base64
 # import urllib
-from st_paywall import add_auth
+#from st_paywall import add_auth
 
 # Page Setup ##################################################################
 import seaborn as sns
@@ -21,7 +21,7 @@ plt.style.use('fivethirtyeight')
 
 
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 # Declarations ################################################################
 logofile = f'{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png'
 url_stripe = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
