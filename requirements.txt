@@ -23,7 +23,6 @@ selectolax
 lxml
 quandl
 PyportfolioOpt
-tensorflow
 streamlit_pdf_viewer
 bsedata
 nsepy
