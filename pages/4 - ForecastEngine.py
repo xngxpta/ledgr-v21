@@ -21,7 +21,7 @@ import yfinance as yf
 from prophet import Prophet
 from prophet.plot import plot_plotly, plot_components_plotly
 import os
-from st_paywall import add_auth
+#from st_paywall import add_auth
 
 # Page Setup ##############################################
 # st.#set_page_config(page_title='Ledgr | Forecasting Engine',
@@ -31,7 +31,7 @@ from st_paywall import add_auth
 # init_session()
 
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 logofile = f'{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png'
 url_stripe = "https://buy.stripe.com/6oUbJ35eaew4bfj0xY0480e"
 st.logo(logofile, size="medium", link='https://alphaledgr.com/',
