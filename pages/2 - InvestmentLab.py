@@ -38,14 +38,14 @@ import yfinance as yf
 from functools import reduce
 import streamlit as st
 # from auth.session import init_session
-from st_paywall import add_auth
+#from st_paywall import add_auth
 
 # init_session()
 
 st.set_page_config(page_title="Ledgr | Optimization Engine", layout="wide")
 
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 # direc = f'{direc}/Documents/Ledgr'
 # bpath = f'{direc}/pages'
 logofile = f"{direc}/pages/appdata/imgs/Ledgr_Logo_F2.png"
