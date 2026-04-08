@@ -21,7 +21,7 @@ from plotly.subplots import make_subplots
 # import seaborn as sns
 # import matplotlib as plt
 import streamlit as st
-from st_paywall import add_auth
+#from st_paywall import add_auth
 
 from ta.momentum import RSIIndicator
 import json
@@ -30,7 +30,7 @@ from ta import add_all_ta_features
 
 # init_session()
 direc = os.getcwd()
-add_auth(required=True)
+#add_auth(required=True)
 st.set_page_config(page_title='Ledgr | Analytics', layout="wide",
                    initial_sidebar_state="expanded")
 
