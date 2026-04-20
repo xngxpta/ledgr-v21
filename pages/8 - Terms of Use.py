@@ -5,7 +5,7 @@ from streamlit_pdf_viewer import pdf_viewer
 import base64
 import os
 
-file0 = Path(__file__).parent / "pages' / "appdata" / "Terms-of-Use.pdf"#add_auth(required=True)
+file0 = Path(__file__).parent / "pages" / "appdata" / "Terms-of-Use.pdf"#add_auth(required=True)
 
 try:
   with open(file0, "rb") as f:
